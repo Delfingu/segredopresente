@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #212121;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.cartas {
+    overflow: hidden;
+    display: none;
+}
+
+#btn_revelar_carta {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#btn_revelar_carta:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.cartass {
+    display: none;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
